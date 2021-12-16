@@ -23,6 +23,9 @@ btns.map(btn => {
                 }
                 break;
             default:
+                if (inputScreen.value === "Error") {
+                    inputScreen.value = "";
+                }
                 inputScreen.value += e.target.innerText;
         }
     })
