@@ -25,6 +25,8 @@ btns.map(btn => {
             default:
                 if (inputScreen.value === "Error") {
                     inputScreen.value = "";
+                } else if (inputScreen.value.startsWith("0")) {
+                    inputScreen.value = "";
                 }
                 inputScreen.value += e.target.innerText;
         }
