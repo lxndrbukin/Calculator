@@ -1,5 +1,4 @@
 // Variables
-const root = document.querySelector('#root');
 const inputScreen = document.querySelector('.input-screen');
 const btns = Array.from(document.getElementsByClassName('btn'));
 
